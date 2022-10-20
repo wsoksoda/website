@@ -1,0 +1,99 @@
+body {
+    width: 100%;
+  }
+
+  h1{
+    font-family: cardo;
+    text-align: center;
+  }
+
+  h3{
+    font-family: cardo;
+  }
+  
+  p{
+    font-size: medium;
+    font-family: josefin sans;
+  }
+
+  img{
+    width: 100%;
+    height: auto;
+  }
+
+.topbar{
+    background-image: linear-gradient(to bottom right,navy, lightblue);
+    overflow: hidden;
+    text-align: center;
+    border-bottom: 1px solid black;
+    color:white;
+  }
+
+  .topbarText{
+    text-align: left;
+    padding-left: 10%
+  }
+
+  .projects{
+    background-color: white;
+    overflow: hidden;
+    text-align: left;
+    border-bottom: 1px solid black;
+    color: black;  
+  }
+  
+  .skills{
+    background-image: linear-gradient(to bottom right, #1E130C ,#9A8478);
+    overflow: hidden;
+    text-align: left;
+    border-bottom: 1px solid black;
+    color:white; 
+  }
+
+  .work{
+    background-color: white;
+    overflow: hidden;
+    text-align: center;
+    color:black;  
+  }
+
+  .school{
+    background-color: DarkGreen;
+    overflow: hidden;
+    text-align: center;
+    border-bottom: 1px solid black;
+    color:white;  
+  }
+
+  .reach{
+    background-color: white;
+    overflow: hidden;
+    text-align: center;
+    color:black;  
+  }
+
+
+  .list{
+    font-size: medium;
+    font-family: josefin sans;
+    color:white;
+    text-align: left;
+  }
+
+ .logo{
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  max-width: 100%;
+ }
+
+ .display-row{
+  display: flex;
+  flex-direction: row;
+}
+
+.half{
+  width: 50%;
+  float: left;
+}
+  
