@@ -2,6 +2,7 @@ body {
     width: 100%;
   }
 
+
   h1{
     font-family: cardo;
     text-align: center;
@@ -95,5 +96,18 @@ body {
 .half{
   width: 50%;
   float: left;
+}
+
+.hidden{
+  opacity:0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.show{
+  opacity:1;
+  filter:blur(0);
+  transform: translateX(0);
 }
   
